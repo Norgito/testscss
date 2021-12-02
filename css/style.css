@@ -1,0 +1,6 @@
+li {
+  padding: 60px; }
+  li a {
+    color: blue; }
+    li a:hover {
+      background-color: red; }

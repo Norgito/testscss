@@ -1,0 +1,20 @@
+
+//variables
+
+$azul:blue;
+$pTop:50px;
+$negro:black;
+$flex:flex;
+$rojo:red;
+$pad:60px;
+
+// nesting
+li{
+    padding: $pad;
+    a{
+        color: $azul;
+    &:hover{
+        background-color: $rojo;
+        }
+    }
+}
